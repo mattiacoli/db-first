@@ -20,8 +20,8 @@ Columns:
 - engine_size : MEDIUMINIT - NOTNULL
 - power : VARCHAR(20) - NULL
 - year: YEAR - NULL
-- color : VARCHAR(10)
-- emissions_class : CHAR(6)
+- color : VARCHAR(10) - NULL
+- emissions_class : CHAR(6) - NULL
 - mileage : MEDIUMINIT - DEFAULT(0)
 - is_new: TINYINT - DEFAULT(0)
 - gearbox: VARCHAR(20) - DEFAULT(manual)
