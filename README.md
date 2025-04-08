@@ -9,23 +9,26 @@ Modellare la struttura di una tabella per memorizzare tutti i dati riguardanti d
     assicurati di indicare la struttura dati da usare ed eventuali attributi per ciascuna colonna
 
 
-- Nome Tabella : `auto_utilitarie`
+- Nome Tabella : `small_cars`
 
-Colonne:
+Columns:
+
 - id : INT - PRIMARY_KEY - AUTO_INCREMENT
-- nome modello : VARCHART(20) - NOTNULL
-- marca : VARCHART(50) - NOTNULL
-- motorizzazione : VARCHART(20) - NOTNULL
-- cilindrata : MEDIUMINIT - NOTNULL
-- potenza : VARCHART(20) - NULL
-- anno: YEAR - NULL
-- kilometraggio : MEDIUMINIT - DEFAULT(0)
-- nuova: TINYINT - DEFAULT(0)
-- tipo cambio : VARCHAR(20) - DEFAULT(manuale)
-- dimensioni: VARCHART(20) - NULL
-- numero posti : TINYINT - DEFAULT (2)
-- numero porte : TINYINT - DEFAULT (3)
-- capienza bagagliaio : VARCHAR(20) - NULL
-- allestimento: VARCHAR(50) - NULL
-- prezzo: MEDIUMINT - NULL
-- descrizione : TEXT(500) - NULL
+- model : VARCHAR(20) - NOTNULL
+- brand : VARCHAR(50) - NOTNULL
+- fuel_type : VARCHAR(20) - NOTNULL
+- engine_size : MEDIUMINIT - NOTNULL
+- power : VARCHAR(20) - NULL
+- year: YEAR - NULL
+- color : VARCHAR(10)
+- emissions_class : CHAR(6)
+- mileage : MEDIUMINIT - DEFAULT(0)
+- is_new: TINYINT - DEFAULT(0)
+- gearbox: VARCHAR(20) - DEFAULT(manual)
+- dimension: VARCHAR(20) - NULL
+- num_seats : TINYINT - DEFAULT (2)
+- num_doors: TINYINT - DEFAULT (3)
+- trunk_capacity : VARCHAR(20) - NULL
+- preparation: VARCHAR(50) - NULL
+- price: MEDIUMINT - NULL
+- description : TEXT(500) - NULL
