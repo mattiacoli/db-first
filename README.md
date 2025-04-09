@@ -22,7 +22,7 @@ Columns:
 - year: YEAR - NULL
 - color : VARCHAR(10) - NULL
 - emissions_class : CHAR(6) - NULL
-- mileage : MEDIUMINIT - DEFAULT(0)
+- mileage : MEDIUMINT - DEFAULT(0)
 - is_new: TINYINT - DEFAULT(0)
 - gearbox: VARCHAR(20) - DEFAULT(manual)
 - dimension: VARCHAR(20) - NULL
@@ -30,5 +30,6 @@ Columns:
 - num_doors: TINYINT - DEFAULT (3)
 - trunk_capacity : VARCHAR(20) - NULL
 - preparation: VARCHAR(50) - NULL
-- price: MEDIUMINT - NULL
+- price: DECIMAL(6,2) - NULL
 - description : TEXT(500) - NULL
+- image : VARCHAR(20)
